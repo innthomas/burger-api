@@ -4,7 +4,8 @@
   "description": "My burger api tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/innthomas/burger-api/issues"
   },
-  "homepage": "https://github.com/innthomas/burger-api#readme"
+  "homepage": "https://github.com/innthomas/burger-api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
 }
